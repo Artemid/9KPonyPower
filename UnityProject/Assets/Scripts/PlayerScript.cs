@@ -78,8 +78,7 @@ public class PlayerScript : NetworkBehaviour
 			float v = Input.GetAxis ("Vertical");
 			float h = Input.GetAxis ("Horizontal");
 			float j = Input.GetAxis ("Jump");
-			//vechicle.OrderVechicle (v, h, j);
-			CmdSyncParams(v,h,j);
+			vechicle.OrderVechicle (v, h, j);
 			//CheckHoldButton (KeyCode.RightAlt, ReplaceCar);
 			//CheckHoldButton (KeyCode.Joystick1Button1, ReplaceCar);
 
@@ -144,9 +143,10 @@ public class PlayerScript : NetworkBehaviour
     {
         if (!carSelected && index >= 0 && index < gameManager.cars.Count) {
             carSelected = true;
-			RpcSelectCar (index);
+            vechicle = gameManager.cars[index].transform.FindChild("vechicle").GetComponent<VehicleController>();
+            vechicle.GetComponent<NetworkIdentity>().AssignClientAuthority(connectionToClient);
+            RpcSelectCar (index);
 			//powered = true;
-			vechicle = gameManager.cars [index].transform.FindChild ("vechicle").GetComponent<VehicleController> ();
 			gameManager.RunSubmitEvent (index);
         }
     }
