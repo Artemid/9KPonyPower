@@ -6,7 +6,6 @@ using System.Collections.Generic;
 
 public class PlayerScript : NetworkBehaviour
 {
-
     public GameManager gameManager;
 
 	[SyncVar]
@@ -18,7 +17,7 @@ public class PlayerScript : NetworkBehaviour
     private int curSelected = 0;
 
     public GameObject carSelector;
-    private bool powered = false;
+	private bool powered = false;
 
     private VehicleController vechicle;
 
@@ -61,23 +60,39 @@ public class PlayerScript : NetworkBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if ( !isLocalPlayer ) {
+        if ( !isLocalPlayer )
+		{
             return;
         }
 
-		if (isSpectator) {
+		if (isSpectator)
+		{
 			GameObject.Find ("CardboardMain").transform.FindChild ("Head").GetComponent<CardboardHead> ().enabled = false;
 		}
 
-		if (isDemonstrator) {
+		if (isDemonstrator)
+		{
 			CmdRequestSpectatorUpdate (GameObject.Find ("CardboardMain").transform.FindChild ("Head").transform.rotation);
 		}
 
-        //car control
-		if (powered) {
+        
+		if (powered)
+		{
+			//car control
 			float v = Input.GetAxis ("Vertical");
 			float h = Input.GetAxis ("Horizontal");
 			float j = Input.GetAxis ("Jump");
+
+			if (Input.GetButton("MoveForward"))
+			{
+				v = 1;
+			}
+
+			if (Input.GetButton("MoveBack"))
+			{
+				v = -1;
+			}
+
 			vechicle.OrderVechicle (v, h, j);
 			//CheckHoldButton (KeyCode.RightAlt, ReplaceCar);
 			//CheckHoldButton (KeyCode.Joystick1Button1, ReplaceCar);
@@ -86,15 +101,22 @@ public class PlayerScript : NetworkBehaviour
 			{
 				ReplaceCar ();
 			}
-		} else {
+		}
+		else
+		{
 			//menu control
 			float axis = Input.GetAxis("Horizontal");
 			int direction = axis > 0 ? 1 : axis < 0 ? -1 : 0;
 
-//			if (Input.GetButtonDown ("MoveForward"))
-//			{
-//				direction = 1;
-//			}
+			if (Input.GetButton("MoveSelecterToRight"))
+			{
+				direction = 1;
+			}
+
+			if (Input.GetButton("MoveSelecterToLeft"))
+			{
+				direction = -1;
+			}
 
 			curSelected += direction;
 			curSelected = Mathf.Clamp(curSelected, 0, gameManager.cars.Count - 1);
@@ -106,13 +128,15 @@ public class PlayerScript : NetworkBehaviour
 			}
 		}
 
-		CheckHoldButton ("Submit", ReplaceCar);
+		//CheckHoldButton ("Submit", ReplaceCar);
     }
 
     private void ReplaceCar()
     {
-        if (!isLocalPlayer)
-            return;
+		if (!isLocalPlayer)
+		{
+			return;
+		}
 
         vechicle.ReplaceCar();
     }
