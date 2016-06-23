@@ -90,6 +90,12 @@ public class PlayerScript : NetworkBehaviour
 			//menu control
 			float axis = Input.GetAxis("Horizontal");
 			int direction = axis > 0 ? 1 : axis < 0 ? -1 : 0;
+
+//			if (Input.GetButtonDown ("MoveForward"))
+//			{
+//				direction = 1;
+//			}
+
 			curSelected += direction;
 			curSelected = Mathf.Clamp(curSelected, 0, gameManager.cars.Count - 1);
 			carSelector.transform.position = gameManager.cars[curSelected].transform.position;
