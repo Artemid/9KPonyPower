@@ -24,6 +24,7 @@ public class PlayerScript : NetworkBehaviour
     private float chekingHoldTime = 2f;
 	private Dictionary<string, float> checkingHoldButtons = new Dictionary<string, float>();
 
+
     // Use this for initialization
     void Start ()
     {

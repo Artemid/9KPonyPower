@@ -108,20 +108,24 @@ public class VehicleController : NetworkBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (!isLocalPlayer)
-            return;
+		if (!isLocalPlayer) {
+			return;
+		}
 
         Debug.Log("OnTriggerEnter");
 
-        var point = collider.GetComponent<CheckPoint>();
-        if (point == null || point == checkPoint) { return; }
+		var point = collider.GetComponent<CheckPoint>();
+		point.GetPoint ();
 
-        if (checkPoint == null || checkPoint.next == point)
-        {
-            if (checkPoint != null) { checkPoint.next.SetActive(false); }
-
-            checkPoint = point;
-            checkPoint.next.SetActive(true);
-        }
+//        var point = collider.GetComponent<CheckPoint>();
+//        if (point == null || point == checkPoint) { return; }
+//
+//        if (checkPoint == null || checkPoint.next == point)
+//        {
+//            if (checkPoint != null) { checkPoint.next.SetActive(false); }
+//
+//            checkPoint = point;
+//            checkPoint.next.SetActive(true);
+//        }
     }
 }
