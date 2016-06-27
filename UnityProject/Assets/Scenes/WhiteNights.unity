@@ -880,6 +880,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -1610,6 +1614,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -2605,6 +2613,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -3801,6 +3813,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -4534,6 +4550,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -5288,6 +5308,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -5379,6 +5403,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -5555,6 +5583,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -5861,6 +5893,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -5980,6 +6016,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -6879,6 +6919,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -8145,6 +8189,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -9134,6 +9182,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -9778,6 +9830,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -10855,6 +10911,10 @@ Prefab:
       propertyPath: m_Name
       value: Checkpoint (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -11003,6 +11063,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
@@ -11779,6 +11843,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
   m_IsPrefabParent: 0
@@ -11864,6 +11932,10 @@ Prefab:
     - target: {fileID: 131424, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
       propertyPath: m_Name
       value: Checkpoint (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102528, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8053a37b232ca4305aba99aa21075ab7, type: 2}

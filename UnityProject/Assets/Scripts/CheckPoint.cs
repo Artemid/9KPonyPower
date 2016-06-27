@@ -9,15 +9,12 @@ public class CheckPoint : MonoBehaviour
 
 	private void Start()
 	{
-		if (isStart)
-		{
-			SetActive (true);
-		}
+		SetActive (isStart);
 	}
 
     public void SetActive(bool active)
     {
-        transform.GetChild(0).gameObject.SetActive(active);
+        gameObject.SetActive(active);
     }
 
 	public void GetPoint()
